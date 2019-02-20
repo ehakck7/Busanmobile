@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+#footer{width: 100%; padding: 80px 0 50px 0 ; text-align: center; color: #fff; background: url(../images/symbol1.png) no-repeat center 6% / 42px 42px; background-color: #1d1d1d;}
+#footer.off{display: none;}
+
+.footer_nav{width: 100%; margin-bottom: 30px; background: #d32234;}
+.footer_nav li{float: left; width: 25%;}
+.footer_nav li a{display: block; padding: 10px 0; font-size: 12px; text-align: center; color: #fff;}
+address{font-size: 12px;}
+.copy{margin-top: 10px; font-size: 12px; color: #d9d9d9;}
