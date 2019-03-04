@@ -27,13 +27,6 @@ ul.bxslider {
 }
 /** THEME
 ===================================*/
-.bx-wrapper {
-  -moz-box-shadow: 0 0 5px #ccc;
-  -webkit-box-shadow: 0 0 5px #ccc;
-  box-shadow: 0 0 5px #ccc;
-  border: 5px solid #fff;
-  background: #fff;
-}
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
   position: absolute;
@@ -67,7 +60,6 @@ ul.bxslider {
   outline: 0;
   border-radius: 50%;
 }
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active{
   background: #d32234;
 }

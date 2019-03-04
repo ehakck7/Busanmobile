@@ -4,6 +4,7 @@
 @import url(footer.css);
 
 #container{position: relative; width: 100%; background: #fff;}
+#container.off{display: none;}
 #container h3{margin-bottom: 10px; padding-left: 13px; font-weight: 700; background: url(../images/subpage1_title_btn.png) no-repeat left 11px;}
 #container li{margin-bottom: 10px; padding-left: 13px; font-size: 16px; background: url(../images/subpage1_bul.png) no-repeat left 13px;}
 
