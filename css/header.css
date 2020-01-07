@@ -22,7 +22,7 @@
 .search-btn{width: 15%; height: 30px; border: none; font-size: 16px; color: #fff; background: #d32234;}
 
 /* 아코디언 메뉴 */ 
-.gnb-wrap{overflow: hidden; position: absolute; top: 0; left: 0; width: 0; padding-bottom: 61px; background: #1d1d1d; z-index: 1; opacity: 0;} 
+.gnb-wrap{display: none; overflow: hidden; position: absolute; top: 0; left: 0; width: 0; padding-bottom: 61px; background: #1d1d1d; z-index: 1; opacity: 0;} 
 .gnb-wrap a{color: #fff;}
 
 .top-menu ul{height: 53px; padding: 0 4%; line-height: 53px; text-align: right;}

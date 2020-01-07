@@ -43,6 +43,7 @@
 .news-title h3{font-weight: 700; font-size: 28px;}
 
 .news li{float: left; width: 48%; margin-right: 4%; margin-bottom: 20px;}
+.news li > a{display: block;}
 .news .mrno{margin-right: 0;}
 
 .news-cont{font-size: 16px;}

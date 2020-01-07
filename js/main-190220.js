@@ -8,6 +8,7 @@ $(document).ready(function(){
 		$('.footer').toggleClass('off');
 
 		if($('.gnb-wrap').hasClass('on')==true){
+			$('.gnb-wrap').css('display', 'block')
 			$('.gnb-wrap').animate({
 				width: '100%',
 				opacity: '1'
@@ -27,6 +28,7 @@ $(document).ready(function(){
 		}
 		else{
 			$('.gnb-wrap').animate({
+				display: 'none',
 				width: '0',
 				opacity: '0'
 			},300)
