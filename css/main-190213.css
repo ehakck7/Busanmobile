@@ -1,0 +1,71 @@
+@charset "utf-8";
+@import url(reset.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(jquery.bxslider.css);
+
+.container{position: relative;}
+#container.off{display: none;}
+
+/* visual */
+.visual{position: relative; width: 100%;}
+.visual > img{width: 100%; height: 100%;}
+.visual h2{position: absolute; bottom: 20px; left: 0; text-align: center;}
+.visual h2 img{width: 94.445%; height: 100%;}
+
+/* banner */
+.banner-wrap{padding: 30px 4%; background: #1d1d1d;}
+.banner-wrap ul li{margin-bottom: 10px; background: #d32234;}
+.banner-wrap ul li:last-child{margin-bottom: 0;}
+
+.banner a{display: block; position: relative; padding: 10px 7.35%; font-size: 16px; color: #fff;}
+.banner .icon{margin-right: 6%;}
+.banner .banner-txt{display: inline-block; padding-left: 6%; background: url(../images/ticket-bar.png) no-repeat 0 4px;}
+.banner .more{position: absolute; top: 11px; right: 7.35%;}
+
+/* program */
+.program-wrap{position: relative; padding: 50px 4%; color: #fff; background: #232323;}
+
+.program img{width: 100%; height: 100%;}
+.program .title-eng,
+.program .title-kor{font-weight: 700; font-size: 24px;}
+.program .title-kor{margin-bottom: 10px;}
+
+.program-info{margin-bottom: 10px; font-size: 14px; color: #ccc;}
+.program-info h4{float: left;}
+.program-info div{float: right;}
+
+.bx-pager-item .bx-pager-link{display: inline-block; width: 25px; height: 25px;}
+
+/* news */
+.news-wrap{padding: 30px 4%; background: #fff;}
+.news-title{text-align: center; margin-bottom: 25px;}
+.news-title h3{font-weight: 700; font-size: 28px;}
+
+.news li{float: left; width: 48%; margin-right: 4%; margin-bottom: 20px;}
+.news .mrno{margin-right: 0;}
+
+.news-cont{font-size: 16px;}
+.news-cont dt img{width: 100%; height: 100%;}
+.news-cont dd{overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.news-cont dd.title{margin-top: 5px; font-weight: 700;}
+
+/* email */
+.email{padding: 30px 0; background: url(../images/symbol2.png) no-repeat 4% 0 #fff;}
+.top-visual{padding: 20px 0;}
+.bot-visual{padding: 40px 0; text-align: center; background-color: #eeebe9;}
+.bot-visual h3{font-size: 28px; margin-bottom: 10px;}
+
+.email-frm{padding: 0 4%;}
+.email-frm .email-txt{float: left; width: 70%; height: 50px; padding-left: 4%; border: 1px solid #b9b9b9;}
+.email-frm .email-btn{float: left; display: block; width: 30%; height: 50px; line-height: 50px; border: 1px solid #b9b9b9; border-left: none; font-size: 16px; color: #fff; background: #333;}
+
+/* interview */
+.interview-title{position: relative; padding: 10px 4%; background: url(../images/interview-bg.png) repeat 0 0;}
+.interview-title h3{margin-top: 47px; font-weight: 700; font-size: 20px; color: #fff;}
+.interview-title a{display: block; width: 48px; height: 48px;}
+.interview-title a img{width: 48px; height: 48px; position: absolute; top: 50%; right: 4%; transform: translate(0, -50%);}
+
+.interview li{position: relative; float: left; width: 50%;}
+.interview li img{width: 100%; height: 100%;}
+.interview li p{position: absolute; bottom: 15px; left: 4%; font-size: 16px; color: #fff;}

@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-#wrap{position: relative; width: 100%;}
+.wrap{position: relative;}
 
 /* header */
-#header{position: relative; width: 100%; height: 53px; background: #d32234;}
+.header{position: relative; height: 53px; background: #d32234;}
 
 .lines{display: inline-block; position: relative; top: 18px; left: 4%; width: 24px; height: 19px; z-index: 999;}
 .line1,
@@ -14,38 +14,37 @@
 .line3{top: 16px; left: 0;}
 
 .logo img{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
-.search_icon a img{position: absolute; top: 50%; right: 4%; transform: translate(0, -50%);}
+.search-icon a img{position: absolute; top: 50%; right: 4%; transform: translate(0, -50%);}
 
 /* search창 */
 .search{display: none; position: absolute; top: 53px; left: 0; width: 100%; height: 53px; padding: 10px 4%; background: rgba(0,0,0,0.5); z-index: 1;}
-.search_box{width: 80%; height: 30px; margin-right: 3%; padding-left: 2%; border: none;}
-.search_btn{width: 15%; height: 30px; border: none; font-size: 16px; color: #fff; background: #d32234;}
+.search-box{width: 80%; height: 30px; margin-right: 3%; padding-left: 2%; border: none;}
+.search-btn{width: 15%; height: 30px; border: none; font-size: 16px; color: #fff; background: #d32234;}
 
 /* 아코디언 메뉴 */ 
-.gnbwrap{position: absolute; top: 0; left: 0; width: 0; padding-bottom: 61px; background: #1d1d1d; z-index: 1; opacity: 0;} 
-.gnbwrap a{color: #fff;}
+.gnb-wrap{overflow: hidden; position: absolute; top: 0; left: 0; width: 0; padding-bottom: 61px; background: #1d1d1d; z-index: 1; opacity: 0;} 
+.gnb-wrap a{color: #fff;}
 
-.topmenu ul{width: 100%; height: 53px; padding: 0 4%; line-height: 53px; text-align: right;}
-.topmenu ul li{display: inline-block; margin: 0 -3px; padding: 0 15px; font-size: 14px; background: url(../images/sub_bar.png) no-repeat 0 22px / 2px 9px;}
-.topmenu ul li:first-child{padding-left: 20px; background: url(../images/symbol1.png) no-repeat 0 19px / 17px 17px;}
-.topmenu ul li:last-child{margin-right: 0; padding-right: 0;}
-.sub_visual,
-.sub_visual img{width: 100%; height: 100%;}
+.top-menu ul{height: 53px; padding: 0 4%; line-height: 53px; text-align: right;}
+.top-menu ul li{display: inline-block; margin: 0 -3px; padding: 0 15px; font-size: 14px; background: url(../images/sub-bar.png) no-repeat 0 22px / 2px 9px;}
+.top-menu ul li:first-child{padding-left: 20px; background: url(../images/symbol1.png) no-repeat 0 19px / 17px 17px;}
+.top-menu ul li:last-child{margin-right: 0; padding-right: 0;}
+.sub-visual,
+.sub-visual img{width: 100%; height: 100%;}
 
-.gnb{position: relative; width: 100%;}
-.gnbul dt{border-bottom: 1px solid #3d3d3d;}
-.gnbul dt:first-child{border-top: 1px solid #3d3d3d;}
+.gnb-list dt{border-bottom: 1px solid #3d3d3d;}
+.gnb-list dt:first-child{border-top: 1px solid #3d3d3d;}
 
-.gnbul .open .depth1{font-weight: 700; color: #d32234;}
-.gnbul .open .depth1:after{transform: rotate(180deg);}
+.gnb-list .open .depth1{font-weight: 700; color: #d32234;}
+.gnb-list .open .depth1:after{transform: rotate(180deg);}
 
 .depth1{position: relative; display: block; width: 100%; padding: 15px 4%;}
-.depth1:after{content: ''; position: absolute; top: 18px; right: 4%; display: inline-block; width: 20px; height: 20px; background: url(../images/sub_down.png) no-repeat 0 0/ 20px 20px;}
+.depth1:after{content: ''; position: absolute; top: 18px; right: 4%; display: inline-block; width: 20px; height: 20px; background: url(../images/sub-down.png) no-repeat 0 0/ 20px 20px;}
 
-.submenu{display: none; padding: 15px 0; border-bottom: 1px solid #3d3d3d;}
-.submenu ul li{padding: 0 4%;}
-.submenu ul li a{display: block; float: left; width: 50%; line-height: 2.5; font-size: 16px; color: #cdcdcd;}
-.submenu ul li a:hover{color: #d32234;}
+.sub-menu{display: none; padding: 15px 0; border-bottom: 1px solid #3d3d3d;}
+.sub-menu ul li{padding: 0 4%;}
+.sub-menu ul li a{display: block; float: left; width: 50%; line-height: 2.5; font-size: 16px; color: #cdcdcd;}
+.sub-menu ul li a:hover{color: #d32234;}
 
-.loginwrap{position: fixed; bottom: 0; left: 0; width: 100%; padding: 10px 20px 10px 0; text-align: right; background: #d32234;}
-.loginwrap a{display: inline-block; width: 80px; height: 40px; line-height: 40px; border: 1px solid #fff; border-radius: 20px; text-align: center;}
+.login-wrap{position: fixed; bottom: 0; left: 0; width: 100%; padding: 10px 20px 10px 0; text-align: right; background: #d32234;}
+.login-wrap a{display: inline-block; width: 80px; height: 40px; line-height: 40px; border: 1px solid #fff; border-radius: 20px; text-align: center;}

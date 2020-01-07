@@ -1,14 +1,14 @@
 $(document).ready(function(){
 	//header menu
 	$('.lines').click(function(){
-		$('.sub_title').removeClass('open').addClass('close')
-		$('.submenu').hide()
-		$('.gnbwrap').toggleClass('on');
-		$('#container').toggleClass('off');
-		$('#footer').toggleClass('off');
+		$('.sub-title').removeClass('open').addClass('close')
+		$('.sub-menu').hide()
+		$('.gnb-wrap').toggleClass('on');
+		$('.container').toggleClass('off');
+		$('.footer').toggleClass('off');
 
-		if($('.gnbwrap').hasClass('on')==true){
-			$('.gnbwrap').animate({
+		if($('.gnb-wrap').hasClass('on')==true){
+			$('.gnb-wrap').animate({
 				width: '100%',
 				opacity: '1'
 			},500)
@@ -26,7 +26,7 @@ $(document).ready(function(){
 			$('.line3').animate({top: '7px'},300)
 		}
 		else{
-			$('.gnbwrap').animate({
+			$('.gnb-wrap').animate({
 				width: '0',
 				opacity: '0'
 			},300)
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	})
 	
 	//sub menu(아코디언 메뉴)
-	$('.sub_title').click(function(){
+	$('.sub-title').click(function(){
 		if($(this).hasClass('open')==false){
 
 			$('.open').removeClass('open').addClass('close')
@@ -56,9 +56,9 @@ $(document).ready(function(){
 	})
 
 	//search
-	$('.search_icon').click(function(){
+	$('.search-icon').click(function(){
 		$('.search').toggle();
-		$('.search_box').val('');
+		$('.search-box').val('');
 	})
 
 	//program (bxslider)
