@@ -21,8 +21,8 @@
 
 **깨달은 점**
 1. 맨처음 만들었던 모바일 사이트여서 부족한 점이 많이 보여 아쉬운 사이트였다.<br>
-   ㄴ bxslider는 mdn으로 교체
-   ㄴ 로그인 버튼의 경우 fixed로 되어 있던 부분을 absolute로 상황에 맞게 바꿈
-   ㄴ ios에서 input css가 초기화 되지 않았던 부분을 수정
+   ㄴ bxslider는 mdn으로 교체<br>
+   ㄴ 로그인 버튼의 경우 fixed로 되어 있던 부분을 absolute로 상황에 맞게 바꿈<br>
+   ㄴ ios에서 input css가 초기화 되지 않았던 부분을 수정<br>
    ㄴ img alt 등 내용에 맞지 않았던 부분들 의미에 맞게 
 
