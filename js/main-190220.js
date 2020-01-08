@@ -4,11 +4,11 @@ $(document).ready(function(){
 		$('.sub-title').removeClass('open').addClass('close')
 		$('.sub-menu').hide()
 		$('.gnb-wrap').toggleClass('on');
-		$('.container').toggleClass('off');
-		$('.footer').toggleClass('off');
+		$('.container').toggle();
+		$('.footer').toggle();
 
-		if($('.gnb-wrap').hasClass('on')==true){
-			$('.gnb-wrap').css('display', 'block')
+		if($('.gnb-wrap').hasClass('on')){
+			$('.gnb-wrap').show()
 			$('.gnb-wrap').animate({
 				width: '100%',
 				opacity: '1'
@@ -25,8 +25,7 @@ $(document).ready(function(){
 			$('.line3').css('position', 'absolute')
 			$('.line3').css('transform', 'rotate(-45deg)')
 			$('.line3').animate({top: '7px'},300)
-		}
-		else{
+		}else{
 			$('.gnb-wrap').animate({
 				display: 'none',
 				width: '0',
@@ -46,14 +45,13 @@ $(document).ready(function(){
 	})
 	
 	//sub menu(아코디언 메뉴)
-	$('.sub-title').click(function(){
-		if($(this).hasClass('open')==false){
-
-			$('.open').removeClass('open').addClass('close')
-			$(this).removeClass('close').addClass('open')
-
-			$('.open').next().slideDown();
-			$('.close').next().slideUp();			
+	$('.sub-title .depth1').click(function(e){
+		event.preventDefault()
+		if(!$(this).hasClass('active')){
+			$('.sub-title .depth1').removeClass('active')
+			$('.sub-title .depth1').parent().next().slideUp();
+			$(this).addClass('active');
+			$(this).parent().next().slideDown();
 		}
 	})
 
@@ -67,13 +65,10 @@ $(document).ready(function(){
 	$('.program').bxSlider({
 		mode: 'horizontal', 
 		auto: true,
-		speed: 500,  
-		pause: 4000, 
-		controls: false, 
 		pager: true, 
+		controls: false, 
+		speed: 500,  
+		slideMargin: 20,
 		infiniteLoop: true, 
-		tickerHover: true, 
-		touchEnabled: true, 
-		useCSS: false,
 	})
 })

@@ -5,7 +5,6 @@
 @import url(jquery.bxslider.css);
 
 .container{position: relative;}
-#container.off{display: none;}
 
 /* visual */
 .visual{position: relative; width: 100%;}
