@@ -24,5 +24,5 @@
    ㄴ bxslider는 mdn으로 교체<br>
    ㄴ 로그인 버튼의 경우 fixed로 되어 있던 부분을 absolute로 상황에 맞게 바꿈<br>
    ㄴ ios에서 input css가 초기화 되지 않았던 부분을 수정<br>
-   ㄴ img alt 등 내용에 맞지 않았던 부분들 의미에 맞게 
+   ㄴ img alt 등 내용에 맞지 않았던 부분들 의미에 맞게 최대한 수정
 
